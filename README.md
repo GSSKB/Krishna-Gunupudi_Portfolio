@@ -71,18 +71,6 @@ Visit `http://localhost:3000` to view the project locally.
 
 ---
 
-## 📸 Screenshots
-
-<img src="/public/sc/1.png" alt="Home Page" width="300"/>
-<img src="/public/sc/2.png" alt="About Me Section" width="300"/>
-<img src="/public/sc/3.png" alt="Project" width="300"/>
-<img src="/public/sc/4.png" alt="Contact" width="300"/>
-
-
-
-
----
-
 ## 🙌 Acknowledgements
 - Special thanks to the creators of **Three.js**, **React**, and **Tailwind CSS** for the incredible tools and frameworks.
 
