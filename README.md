@@ -1,7 +1,6 @@
 
 # My Portfolio Website
 
-![Portfolio Banner](path-to-banner-image)
 
 ## 🌐 Live Demo
 Check out my portfolio live: [Krishna Gunupudi](https://krishna-gunupudi-portfolio.vercel.app)
