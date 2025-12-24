@@ -139,7 +139,7 @@ export const myProjects = [
     desc: ' I developed SwiftCart, a personal e-commerce project that highlights my skills in web development. This dynamic and interactive website utilizes HTML, CSS, and JavaScript to create a responsive user interface that enhances the online shopping experience. Key features include product display, category filtering, and a search functionality, all designed to make navigation intuitive and engaging.',
     subdesc:
       'Built with HTML, CSS, and JavaScript, SwiftCart delivers a seamless and responsive e-commerce experience, integrating external APIs for dynamic product data and user-friendly interactions.',
-    href: 'https://swift-cart.s3.us-east-2.amazonaws.com/public/index.html',
+    href: 'https://swift-cart-e-commerce-website.vercel.app',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -184,7 +184,7 @@ export const myProjects = [
     desc: 'The Flight Booking System is a full-stack web application designed to streamline airline reservation workflows, from searching flights to booking, managing passengers, and handling administrative operations. This project highlights my expertise in building scalable, enterprise-grade applications using ASP.NET Core, Angular, and SQL Server, ensuring secure, efficient, and reliable user experiences across all modules.',
     subdesc:
       'Developed with ASP.NET Core 6, C#, Angular, TypeScript, and SQL Server, the system features a modular architecture with clear separation of concerns across Controllers, Services, and Repository layers. It includes secure authentication, real-time seat availability checks, structured booking flows, and efficient database operations. The backend exposes RESTful APIs consumed by an Angular frontend to deliver a seamless flight search and booking experience for users.',
-    href: '#',
+    href: 'https://flightbookingsystem-one.vercel.app',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {

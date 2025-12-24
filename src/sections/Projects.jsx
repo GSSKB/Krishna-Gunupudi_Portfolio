@@ -1,4 +1,3 @@
-// Logo sizing fix - v3
 import React, { Suspense, useState } from 'react'
 import { myProjects } from '../constants'
 import { Canvas } from '@react-three/fiber';
@@ -20,11 +19,9 @@ const Projects = () => {
     console.log('=== PROJECTS DEBUG ===');
     console.log('Current project index:', selectedProjectIndex);
     console.log('Current project title:', currentProject?.title);
-    console.log('Current project logo:', currentProject?.logo);
     console.log('Total projects:', myProjects.length);
     console.log('All project titles:', myProjects.map((p, i) => `${i}: ${p.title}`));
     console.log('Project at index 4:', myProjects[4]?.title);
-    console.log('Project at index 4 logo:', myProjects[4]?.logo);
     console.log('====================');
   }, [selectedProjectIndex, currentProject]);
 
@@ -46,36 +43,8 @@ const Projects = () => {
           <div className='absolute top-0 right-0'>
             <img src={currentProject.spotlight} alt='spotlight' className='w-full h-96 object-cover rounded-xl' />
           </div>
-          <div className='backdrop-filter backdrop-blur-3xl rounded-lg flex items-center justify-center' style={{
-            ...currentProject.logoStyle,
-            width: '80px',
-            height: '80px',
-            padding: '2px',
-            boxSizing: 'border-box',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center'
-          }}>
-            <img 
-              src={currentProject.logo} 
-              alt="logo" 
-              className='shadow-sm' 
-              style={{ 
-                width: '100%', 
-                height: '100%', 
-                objectFit: 'contain',
-                display: 'block'
-              }}
-              onError={(e) => {
-                console.error('❌ Logo failed to load:', currentProject.logo);
-                console.error('Project:', currentProject.title);
-                e.currentTarget.style.border = '2px solid red'; // Visual indicator
-              }}
-              onLoad={() => {
-                console.log('✅ Logo loaded successfully:', currentProject.logo);
-                console.log('Project:', currentProject.title);
-              }}
-            />
+          <div className='p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg' style={currentProject.logoStyle}>
+            <img src={currentProject.logo} alt="logo" className='w-10 h-10 shadow-sm  ' />
           </div>
           <div className='flex flex-col gap-5 text-white-600 my-5'>
             <p className='text-white text-2xl font-semibold animatedText'>{currentProject.title}</p>
