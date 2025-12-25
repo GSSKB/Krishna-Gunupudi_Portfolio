@@ -232,7 +232,7 @@ export const myProjects = [
     desc: 'IntelliCare AI is a full-stack healthcare assistant that delivers AI-powered medical consultations, symptom-based risk assessments, and doctor discovery using RAG, ML models, and LLMs. It integrates a React + FastAPI architecture with FAISS vector search and Google Gemini to provide accurate, knowledge-grounded healthcare responses.',
     subdesc:
       'The system validates all queries against a curated medical dataset and returns structured insights, recommendations, and similar case analysis. Built with React for the frontend, FastAPI for the backend, FAISS for vector search, and Google Gemini for LLM integration, IntelliCare AI ensures accurate, knowledge-grounded healthcare responses with real-time medical guidance.',
-    href: '#',
+    href: 'https://intellicare-ai-frontend.onrender.com',
     texture: '/textures/project/IntelliCare_AI.mp4?v=2.0',
     logo: '/assets/IntelliCare_logo.png',
     logoStyle: {
@@ -298,7 +298,7 @@ export const workExperiences = [
     id: 1,
     name: 'Morgan Stanley',
     pos: 'Full Stack Developer',
-    duration: 'June 2025 – Present',
+    duration: 'July 2025 – Present',
     title: [
       "Developed a scalable banking platform using React.js, Node.js, Spring Boot, and PostgreSQL/MongoDB, optimizing transaction processing and account management APIs to improve response times by 40% and support 1,000+ daily users.",
       "Implemented secure role-based authentication with Spring Security, JWT, and Firebase Auth, adding AI-driven anomaly detection to flag suspicious login and transaction patterns and strengthen fraud prevention efforts.",
