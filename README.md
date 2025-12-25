@@ -1,7 +1,6 @@
 
 # My Portfolio Website
 
-![Portfolio Banner](path-to-banner-image)
 
 ## 🌐 Live Demo
 Check out my portfolio live: [Krishna Gunupudi](https://krishna-gunupudi-portfolio.vercel.app)
@@ -68,18 +67,6 @@ Visit `http://localhost:3000` to view the project locally.
 - **Three.js integration:** Interactive 3D models enhance the user experience.
 - **Responsive design:** Tailored for devices of all sizes using Tailwind CSS.
 - **Fast performance:** Lightweight and optimized for speed.
-
----
-
-## 📸 Screenshots
-
-<img src="/public/sc/1.png" alt="Home Page" width="300"/>
-<img src="/public/sc/2.png" alt="About Me Section" width="300"/>
-<img src="/public/sc/3.png" alt="Project" width="300"/>
-<img src="/public/sc/4.png" alt="Contact" width="300"/>
-
-
-
 
 ---
 
