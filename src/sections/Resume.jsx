@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 
 const Resume = ({ onClose }) => {
+  // Resume file paths
   const resumePdfPath = '/resume/Krishna_Gunupudi_Full%20Stack%20AI%20Developer.pdf';
   const resumeDocxPath = '/resume/Krishna_Gunupudi_Full%20Stack%20AI%20Developer.docx';
+  // Cache-busting version for iframe viewer (ensures new resume loads)
+  const resumeVersion = '?v=2.0';
   const [isLoading, setIsLoading] = useState(true);
 
   return (
@@ -136,7 +139,7 @@ const Resume = ({ onClose }) => {
           {/* PDF Viewer */}
           <div className="w-full h-[75vh]">
             <iframe
-              src={`${resumePdfPath}#toolbar=0&navpanes=0&scrollbar=0&zoom=90`}
+              src={`${resumePdfPath}${resumeVersion}#toolbar=0&navpanes=0&scrollbar=0&zoom=90`}
               title="Krishna Gunupudi Resume"
               className="w-full h-full"
               style={{ border: 'none', backgroundColor: '#fff' }}
